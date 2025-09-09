@@ -11,10 +11,14 @@
 # else:
 #      print ("This is a profit.")
 
-n = int( input ("What is your number?"))
-if n>15:
-    print ("Number is greater than 15")
-else:
-    print("Number is less than 15")
+# n = int( input ("What is your number?"))
+# if n>15:
+#     print ("Number is greater than 15")
+# else:
+#     print("Number is less than 15")
 
- 
+o = int( input ("What is your number?"))
+if o%2 == 0:
+    print("Your numbr is even.")
+else:
+   print("your number is odd")
